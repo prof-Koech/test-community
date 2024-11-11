@@ -1,0 +1,154 @@
+/* Apply consistent background color across the entire website */
+body {
+    background-color: #f8f9fa; /* Light gray background color */
+    color: #343a40; /* Dark text color for better contrast */
+    font-family: 'Arial', sans-serif; /* Use a clean font */
+  }
+  
+  /* General section styling to maintain uniformity */
+  section {
+    padding: 30px 0;
+    background-color: #f8f9fa; /* Same background color for all sections */
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    background-color: #343a40; /* Dark background for the navbar */
+  }
+  
+  .navbar a {
+    color: #fff; /* White text for navbar items */
+  }
+  
+  .navbar a:hover {
+    color: #007bff; /* Blue text on hover */
+  }
+  
+  /* News & Events Section Styling */
+  #news {
+    padding: 50px 0;
+    background-color: #f8f9fa; /* Same background color for news section */
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #343a40; /* Dark footer */
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+  }
+  
+  /* Title Styling */
+  h2 {
+    font-size: 2.5rem;
+    color: #343a40;
+    margin-bottom: 30px;
+  }
+  
+  /* Carousel Styling */
+  .carousel-item img {
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for captions */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .carousel-caption h5 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .carousel-caption p {
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+  
+  .carousel-caption a {
+    font-size: 1.1rem;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .carousel-caption a:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Carousel Control Styling */
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #007bff;
+    border-radius: 50%;
+  }
+  
+  .carousel-control-prev, .carousel-control-next {
+    width: 5%;
+  }
+  
+  .carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: #0056b3;
+  }
+  /* About Us Section Styling */
+#about {
+  background-image: url('path/to/your-image.jpg'); /* Background image for About Us section */
+  background-size: cover; /* Ensure the image covers the entire section */
+  background-position: center center; /* Center the image */
+  padding: 80px 0; /* Top and bottom padding for spacing */
+  color: #1b1313; /* White text color to contrast with the background */
+  text-align: center; /* Center the text */
+  margin-top: 30px;
+}
+
+#about h2 {
+  font-size: 2.8rem; /* Larger font size for the title */
+  font-weight: bold;
+  margin-bottom: 30px; /* Space below the title */
+}
+
+#about p {
+  font-size: 1.2rem; /* Adjust the font size for the paragraph */
+  line-height: 1.6; /* Line height for better readability */
+  max-width: 900px; /* Max width for the paragraph */
+  margin: 0 auto 20px auto; /* Center the paragraph with some margin at the bottom */
+  padding: 0 20px; /* Padding inside for spacing */
+}
+
+#about .mission, #about .vision {
+  font-size: 1.3rem; /* Larger font size for mission and vision */
+  font-weight: 500; /* Medium weight for mission/vision */
+  margin: 20px 0; /* Space between mission and vision */
+}
+
+#about .mission p, #about .vision p {
+  font-size: 1.1rem; /* Slightly smaller font for mission and vision paragraphs */
+  margin: 10px 0; /* Margin for spacing */
+}
+
+#about .cta {
+  margin-top: 40px; /* Add space before the call-to-action button */
+}
+
+#about .cta a {
+  display: inline-block; /* Make the link a block-level element */
+  background-color: #007bff; /* Blue background for the button */
+  color: #0e0a0a; /* White text for the button */
+  padding: 15px 25px; /* Padding inside the button */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  font-size: 1.1rem; /* Font size for the button text */
+  transition: background-color 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+#about .cta a:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
