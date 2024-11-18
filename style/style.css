@@ -54,7 +54,7 @@ body {
   .carousel-item img {
     height: 400px;
     object-fit: cover;
-    width: 100%;
+    width: 90%fit-content;
   }
   
   .carousel-caption {
